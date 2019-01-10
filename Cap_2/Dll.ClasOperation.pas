@@ -1,4 +1,8 @@
-﻿unit Dll.ClasOperation;
+﻿///////////////////////////////////////////
+// Desarrollador : Ing. Carlos Reyes
+// Email         : carlosreyes210177@gmail.com
+
+unit Dll.ClasOperation;
 
 interface
 uses

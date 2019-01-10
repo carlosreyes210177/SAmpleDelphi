@@ -1,4 +1,7 @@
-﻿program SampleOperation;
+﻿///////////////////////////////////////////
+// Desarrollador : Ing. Carlos Reyes
+// Email         : carlosreyes210177@gmail.com
+program SampleOperation;
 
 uses
   Vcl.Forms,

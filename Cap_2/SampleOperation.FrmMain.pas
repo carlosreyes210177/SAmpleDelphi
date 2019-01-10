@@ -1,4 +1,7 @@
-﻿unit SampleOperation.FrmMain;
+﻿///////////////////////////////////////////
+// Desarrollador : Ing. Carlos Reyes
+// Email         : carlosreyes210177@gmail.com
+unit SampleOperation.FrmMain;
 
 interface
 
