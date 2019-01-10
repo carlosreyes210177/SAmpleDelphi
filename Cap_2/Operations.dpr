@@ -13,42 +13,61 @@
 uses
   System.SysUtils,
   System.Classes,
+  Vcl.Dialogs,
   Dll.ClasOperation in 'Dll.ClasOperation.pas';
 
 {$R *.res}
 
 function Suma(iA : Integer; iB : Integer) : Integer; stdcall;
+var
+   Operation : TOperation;
 begin
+   Operation := TOperation.Create;
    try
-      Result  := (iA + iB);
-   except
-      on E : Exception do
-      begin
-         raise Exception.Create(E.Message);
-      end;
+      Result := Operation.Suma(iA, iB);
+   finally
+      FreeAndNil(Operation);
    end;
 end;
 
 function Resta(iA : Integer; iB : Integer) : Integer; stdcall;
+var
+   Operation : TOperation;
 begin
-   Result := (iA - iB);
+   Operation := TOperation.Create;
+   try
+      Result := Operation.Resta(iA, iB);
+   finally
+      FreeAndNil(Operation);
+   end;
 end;
 
 function Multiplicar(iA : Integer; iB : Integer) : Integer; stdcall;
+var
+   Operation : TOperation;
 begin
-   Result := Trunc(iA * iB);
+   Operation := TOperation.Create;
+   try
+      Result := Operation.Multiplicar(iA, iB);
+   finally
+      FreeAndNil(Operation);
+   end;
 end;
 
 function Dividir(iA : Integer; iB : Integer) : Integer; stdcall;
+var
+   Operation : TOperation;
 begin
-   Result := Trunc(iA / iB);
+   Operation := TOperation.Create;
+   try
+      Result := Operation.Dividir(iA, iB);
+   finally
+      FreeAndNil(Operation);
+   end;
 end;
 
 exports Suma;
 exports Resta;
 exports Multiplicar;
 exports Dividir;
-
-begin
-
 end.

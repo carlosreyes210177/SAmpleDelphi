@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B85DB5E0-840A-430C-B789-8307DFBD0889}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Operations.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="SampleOperation.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Operations">
+        <MSBuild Projects="Operations.dproj"/>
+    </Target>
+    <Target Name="Operations:Clean">
+        <MSBuild Projects="Operations.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Operations:Make">
+        <MSBuild Projects="Operations.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SampleOperation">
+        <MSBuild Projects="SampleOperation.dproj"/>
+    </Target>
+    <Target Name="SampleOperation:Clean">
+        <MSBuild Projects="SampleOperation.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SampleOperation:Make">
+        <MSBuild Projects="SampleOperation.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Operations;SampleOperation"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Operations:Clean;SampleOperation:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Operations:Make;SampleOperation:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
