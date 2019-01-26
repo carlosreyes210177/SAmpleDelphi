@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/10 17:25:10.000.417,=C:\Users\virtual\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/10 17:25:35.000.167,C:\Users\virtual\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\virtual\Documents\Embarcadero\Studio\Projects\SemdEmail.dproj</Transaction>
+    <Transaction>2019/01/10 17:26:27.000.292,C:\Users\virtual\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Delphi\Sample\Cap3\SendEmail.FrmMain.pas</Transaction>
+    <Transaction>2019/01/10 17:26:27.000.292,C:\Users\virtual\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Delphi\Sample\Cap3\SendEmail.FrmMain.dfm</Transaction>
+    <Transaction>2019/01/10 17:26:32.000.464,C:\Users\virtual\Documents\Embarcadero\Studio\Projects\SemdEmail.dproj=C:\Delphi\Sample\Cap3\SemdEmail.dproj</Transaction>
+    <Transaction>2019/01/10 22:06:06.000.365,=C:\Delphi\Sample\Cap_3\Unit1.pas</Transaction>
+    <Transaction>2019/01/10 22:06:21.000.168,C:\Delphi\Sample\Cap_3\SendEmail.dproj=C:\Delphi\Sample\Cap_3\SemdEmail.dproj</Transaction>
+    <Transaction>2019/01/10 22:09:42.000.903,C:\Delphi\Sample\Cap_3\SendEmain.classMail.pas=C:\Delphi\Sample\Cap_3\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
