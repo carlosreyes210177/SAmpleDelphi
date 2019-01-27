@@ -15,30 +15,32 @@ uses
   Vcl.StdCtrls,
   RzTabs,
   Vcl.WinXCtrls,
-  Vcl.ExtCtrls;
+  Vcl.ExtCtrls,
+  Vcl.ComCtrls;
 
 type
    TFrmMain = class(TForm)
-      RzPageControl1    : TRzPageControl;
-      rztbshtSend       : TRzTabSheet;
-      TbConfig          : TRzTabSheet;
-    btnSendemail: TButton;
+      btnSendemail      : TButton;
+      pgemail           : TPageControl;
+      tsSend            : TTabSheet;
+      tsSetting         : TTabSheet;
       grpSetting        : TGroupBox;
-      edtHost           : TEdit;
-      edtPort           : TEdit;
       lblHost           : TLabel;
       lblPort           : TLabel;
+      lblEmail          : TLabel;
+      lblPassword       : TLabel;
+      lblName           : TLabel;
+      edtHost           : TEdit;
+      edtPort           : TEdit;
       edtEmail          : TEdit;
       edtPassword       : TEdit;
       btnShow_hide      : TButton;
       btnClear          : TButton;
-      lblEmail          : TLabel;
-      lblPassword       : TLabel;
       edtNameRecipient  : TEdit;
-      lblName           : TLabel;
+      chkUseTLS         : TCheckBox;
+      lblToEmail        : TLabel;
       edtSentTo         : TEdit;
       edtAsunt          : TEdit;
-      lblToEmail        : TLabel;
       lblAsunt          : TLabel;
       mmoMessage        : TMemo;
       edtAttachment     : TEdit;
@@ -46,7 +48,6 @@ type
       btnOpenfile       : TButton;
       Pnl_Wait          : TPanel;
       ActivityInd_Wait  : TActivityIndicator;
-      chkUseTLS         : TCheckBox;
 
       procedure btnOpenfileClick(Sender: TObject);
       procedure btnShow_hideClick(Sender: TObject);

@@ -4,8 +4,8 @@ object FrmMain: TFrmMain
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'Envio de correo electronico SMTP'
-  ClientHeight = 369
-  ClientWidth = 439
+  ClientHeight = 371
+  ClientWidth = 459
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,23 +16,33 @@ object FrmMain: TFrmMain
   Position = poMainFormCenter
   PixelsPerInch = 96
   TextHeight = 13
-  object RzPageControl1: TRzPageControl
+  object btnSendemail: TButton
+    Left = 71
+    Top = 327
+    Width = 297
+    Height = 34
+    Cursor = crHandPoint
+    Caption = 'Enviar Correo'
+    TabOrder = 0
+    OnClick = btnSendemailClick
+  end
+  object pgemail: TPageControl
     Left = 0
     Top = 0
-    Width = 439
-    Height = 305
-    Hint = ''
-    ActivePage = rztbshtSend
+    Width = 459
+    Height = 321
+    ActivePage = tsSend
     Align = alTop
-    ShowFullFrame = False
-    ShowShadow = False
-    TabIndex = 0
-    TabOrder = 0
-    ExplicitWidth = 438
-    FixedDimension = 19
-    object rztbshtSend: TRzTabSheet
+    TabOrder = 1
+    ExplicitLeft = 3
+    ExplicitTop = 1
+    ExplicitWidth = 449
+    object tsSend: TTabSheet
       Caption = 'Mensage de correo electronico'
-      ExplicitWidth = 438
+      ExplicitLeft = -108
+      ExplicitTop = 39
+      ExplicitWidth = 377
+      ExplicitHeight = 301
       object lblToEmail: TLabel
         Left = 19
         Top = 22
@@ -117,12 +127,14 @@ object FrmMain: TFrmMain
         end
       end
     end
-    object TbConfig: TRzTabSheet
+    object tsSetting: TTabSheet
       Caption = 'Configuracion'
-      ExplicitWidth = 438
+      ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitWidth = 441
       object grpSetting: TGroupBox
-        Left = 7
-        Top = 7
+        Left = 8
+        Top = 8
         Width = 426
         Height = 276
         TabOrder = 0
@@ -239,15 +251,5 @@ object FrmMain: TFrmMain
         end
       end
     end
-  end
-  object btnSendemail: TButton
-    Left = 71
-    Top = 327
-    Width = 297
-    Height = 34
-    Cursor = crHandPoint
-    Caption = 'Enviar Correo'
-    TabOrder = 1
-    OnClick = btnSendemailClick
   end
 end
