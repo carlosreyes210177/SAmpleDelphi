@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/01/24 13:43:55.000.061,=C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/24 13:49:00.000.258,=C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/07 14:20:13.000.386,=C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/07 15:04:26.000.716,C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\carlo\Documents\Embarcadero\Studio\Projects\IncrustarForm.dproj</Transaction>
+    <Transaction>2019/02/07 15:05:45.000.974,C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Delphi\Sample\Cap_5\Sample.IncrustarForm.FrmMain.pas</Transaction>
+    <Transaction>2019/02/07 15:05:45.000.974,C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Delphi\Sample\Cap_5\Sample.IncrustarForm.FrmMain.dfm</Transaction>
+    <Transaction>2019/02/07 15:05:54.000.310,C:\Users\carlo\Documents\Embarcadero\Studio\Projects\IncrustarForm.dproj=C:\Delphi\Sample\Cap_5\IncrustarForm.dproj</Transaction>
+    <Transaction>2019/02/07 15:19:50.000.617,=C:\Delphi\Sample\Cap_5\Unit1.pas</Transaction>
+    <Transaction>2019/02/07 15:19:55.000.731,=C:\Delphi\Sample\Cap_5\Unit2.pas</Transaction>
+    <Transaction>2019/02/07 15:22:07.000.715,C:\Delphi\Sample\Cap_5\Unit1.dfm=C:\Delphi\Sample\Cap_5\Sample.IncrustarForm.Form1.dfm</Transaction>
+    <Transaction>2019/02/07 15:22:07.000.715,C:\Delphi\Sample\Cap_5\Unit1.pas=C:\Delphi\Sample\Cap_5\Sample.IncrustarForm.Form1.pas</Transaction>
+    <Transaction>2019/02/07 15:22:19.000.603,C:\Delphi\Sample\Cap_5\Unit2.dfm=C:\Delphi\Sample\Cap_5\Sample.IncrustarForm.Form2.dfm</Transaction>
+    <Transaction>2019/02/07 15:22:19.000.603,C:\Delphi\Sample\Cap_5\Unit2.pas=C:\Delphi\Sample\Cap_5\Sample.IncrustarForm.Form2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

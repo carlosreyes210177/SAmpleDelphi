@@ -1,0 +1,50 @@
+object Frm1: TFrm1
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderIcons = []
+  BorderStyle = bsNone
+  ClientHeight = 437
+  ClientWidth = 641
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lblTitle: TLabel
+    Left = 0
+    Top = 0
+    Width = 641
+    Height = 41
+    Align = alTop
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Formulario incrustado en pagecontrol'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -29
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblNumber: TLabel
+    Left = 0
+    Top = 400
+    Width = 641
+    Height = 37
+    Align = alBottom
+    Alignment = taCenter
+    AutoSize = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlue
+    Font.Height = -29
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ExplicitTop = 399
+  end
+end

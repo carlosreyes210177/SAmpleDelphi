@@ -1,0 +1,66 @@
+﻿unit Sample.IncrustarForm.FrmMain;
+
+interface
+
+uses
+   Winapi.Windows,
+   Winapi.Messages,
+   System.SysUtils,
+   System.Variants,
+   System.Classes,
+   Vcl.Graphics,
+   Vcl.Controls,
+   Vcl.Forms,
+   Vcl.Dialogs,
+   Vcl.ExtCtrls;
+
+type
+   TFrmMain = class(TForm)
+    pnlFrom1: TPanel;
+    pnlForm2: TPanel;
+
+
+   private
+    { Private declarations }
+      procedure AddFormToPage;
+
+   public
+    { Public declarations }
+
+
+   end;
+
+var
+  FrmMain: TFrmMain;
+
+implementation
+
+uses
+   Sample.IncrustarForm.Form1,
+   Sample.IncrustarForm.Form2;
+
+{$R *.dfm}
+
+
+{ TFrmMain }
+
+procedure TFrmMain.AddFormToPage;
+var
+   Frm1 : TFrm1;
+   Frm2 : TFrm2;
+begin
+   /////////////////////////////////////////////////////
+   ///   Creo el formulario
+   Frm1        := TFrm1.Create(pnlFrom1);
+   Frm1.Parent := pnlFrom1;
+   Frm1.Show;
+
+
+
+   Frm2     := TFrm2.Create(pnlFrom1);
+
+
+
+end;
+
+end.

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{EE04F8C3-7215-4707-B9E7-1FCD9ECA25D4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="IncrustarForm.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="IncrustarFrom2.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="IncrustarForm">
+        <MSBuild Projects="IncrustarForm.dproj"/>
+    </Target>
+    <Target Name="IncrustarForm:Clean">
+        <MSBuild Projects="IncrustarForm.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="IncrustarForm:Make">
+        <MSBuild Projects="IncrustarForm.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="IncrustarFrom2">
+        <MSBuild Projects="IncrustarFrom2.dproj"/>
+    </Target>
+    <Target Name="IncrustarFrom2:Clean">
+        <MSBuild Projects="IncrustarFrom2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="IncrustarFrom2:Make">
+        <MSBuild Projects="IncrustarFrom2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="IncrustarForm;IncrustarFrom2"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="IncrustarForm:Clean;IncrustarFrom2:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="IncrustarForm:Make;IncrustarFrom2:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
