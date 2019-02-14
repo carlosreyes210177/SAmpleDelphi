@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/02/12 17:52:16.313,=C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/12 19:04:53.729,C:\Users\carlo\Documents\Embarcadero\Studio\Projects\AppDragDop.dproj=C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/02/12 19:05:54.835,C:\Delphi\Sample\Cap_6\AppDragDrop.FrmDragDrop.pas=C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/12 19:05:54.835,C:\Delphi\Sample\Cap_6\AppDragDrop.FrmDragDrop.dfm=C:\Users\carlo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/02/12 19:06:00.557,C:\Delphi\Sample\Cap_6\AppDragDop.dproj=C:\Users\carlo\Documents\Embarcadero\Studio\Projects\AppDragDop.dproj</Transaction>
+    <Transaction>2019/02/12 19:43:35.642,=C:\Delphi\Sample\Cap_6\Unit1.pas</Transaction>
+    <Transaction>2019/02/12 19:57:25.649,C:\Delphi\Sample\Cap_6\AppDragDrop.FrmDragDrop2.pas=C:\Delphi\Sample\Cap_6\Unit1.pas</Transaction>
+    <Transaction>2019/02/12 19:57:25.650,C:\Delphi\Sample\Cap_6\AppDragDrop.FrmDragDrop2.dfm=C:\Delphi\Sample\Cap_6\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
